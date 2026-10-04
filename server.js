@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import { runSecurityAudit } from "./src/services/scanner.js";
-import Scan from "./src/models/Scan.js";
+import Scan from "./src/models/scan.js";
 import mongoose from "mongoose";
 import rateLimit from "express-rate-limit";
 
